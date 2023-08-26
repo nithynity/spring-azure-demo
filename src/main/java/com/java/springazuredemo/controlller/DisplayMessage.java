@@ -7,6 +7,6 @@ import org.springframework.web.bind.annotation.RestController;
 public class DisplayMessage {
    @GetMapping("/message")
     public String displayMessage(){
-            return "Successfully deployed in azure";
+            return "Successfully deployed in azure cloud";
     }
 }
